@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../imagenes/logopestaña.ico" type="image/x-icon">
-        <title>blog</title>
-        <link rel="stylesheet" href="../css/estilos.css">
-    </head>
-    <body class="body">
-        <header class="header">
-            <a class="header__logo" href="../index.html"><img src="../imagenes/bach-flower-essences-logo.svg" alt="logo" width="160" height="150"></a>
-            <nav class="nav">
-                 <ul class="nav__listado">
-                    <li class="nav__item" >
-                        <a href="../index.html">Inicio</a>
-                     </li>
-                    <li class="nav__item">
-                        <a href="./productos.html">productos</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./blog.html">blog</a>
-                    </li>
-                    <li class="nav__item">
-                         <a href="./nosotros.html">nosotros</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./contactanos.html">contactanos</a>
-                    </li>
-                 </ul>
-             </nav>
-        </header>
-        <main>
-            <section>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/logopestaña.ico" type="image/x-icon">
+    <title>blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body class="body">
+    <header class="header">
+        <a class="header__logo" href="../index.html"><img src="../imagenes/bach-flower-essences-logo.svg" alt="logo"
+                width="160" height="150"></a>
+        <nav class="nav">
+            <ul class="nav__listado">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./productos.html">productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./blog.html">blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./nosotros.html">nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contactanos.html">contactanos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--  <section class="contacto">
                 <div>
                     <h1>Contacta con nosotros</h1>
                 </div>
                 <div>
-                    <!--probar mandar la info a un url-->
+                    
+                    
                     <form action="#">
                         <fieldset>
                             <input type="text"placeholder="tu nombre">
@@ -48,27 +57,70 @@
                         </fieldset>
                     </form> 
                 
-                </div>
-                <div>
+                </div> 
+                <div class="contacto">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50813.53252261351!2d-115.83902654576373!3d37.2513662935481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b81baaba3e8c81%3A0x970427e38e6237ae!2s%C3%81rea%2051%2C%20Nevada%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1656269535040!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div>
+                    <div>
+
 
                 </div>
-            </section>
+            </section> -->
+        <section class="contacto" class="contacto1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="cosmefulanito@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
 
-        </main>
-        <footer class="footer">
+                            <div>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5074203440668!2d-58.515761784771364!3d-34.56602518046924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7034fcac623%3A0x1c27b6b4015edc9f!2sPancho%2046!5e0!3m2!1ses-419!2sar!4v1659050490723!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div>
             <img src="../imagenes/bach-flower-essences-logo.svg" alt="logo" width="90" height="90">
             <p>©derechos reservados</p>
-            <p>"Cada persona tiene una vida que vivir, un trabajo que hacer, una gloriosa personalidad, una maravillosa individualidad"
+        </div>
+        <div class="footer__flex">
+
+            <p class="footer__p">"Cada persona tiene una vida que vivir, un trabajo que hacer, una gloriosa personalidad, una maravillosa
+                individualidad"
                 Edward Bach</p>
-            <p>contactate con nosotros</p>
-                <!--recodar poner links-->
-                <ul>
-                    <li><a href="#" target="-blank">instagram</a></li>
-                    <li><a href="#" target="-blank">facebook</a></li>
-                    <li><a href="#" target="-blank">whatsapp</a></li>
-                </ul>
-        </footer>
-    </body>
+            <p class="footer__p2">contactate con nosotros</p>
+        </div>
+        <!--recodar poner links-->
+        <nav>
+            <ul class="footer__lista">
+                <li><a href="#" target="-blank">instagram</a></li>
+                <li><a href="#" target="-blank">facebook</a></li>
+                <li><a href="#" target="-blank">whatsapp</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+
+
 </html>

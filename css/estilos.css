@@ -6,7 +6,10 @@
 
 .body {
     font-family:'NicolasJensonSGOTStd-Regular' , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+   
 }
+
 
 
 
@@ -24,6 +27,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    
+    
 }
 
 .nav{
@@ -46,6 +51,9 @@
 
 .header__logo {
     font-size: 32px;
+    width: 130px !important;
+    height: 125px !important;
+    
     
    
   
@@ -58,6 +66,7 @@
 
 .main {
 	/*margin-top: 1000px;*/
+    
 	
 }
 
@@ -170,11 +179,14 @@
 }
 
 .media__video {
-    width: 30%;
+    width: 25%;
     height: 300px; 
     border-radius: 20px;
 	padding: 5px 0pc 5px 5px;
-	margin: 10px 0px 5px 5px;
+	margin: 10px 0px 5px 35px;
+
+    
+    object-fit: cover;
     
 
      
@@ -187,13 +199,19 @@
     width: 60%;
     height: 100px;
     padding: 5px 0pc 5px 20px;
-	margin: 10px 0px 5px 20px;
+	margin: 10px 0px 180px 20px;
+    display: flex;
+    
+
    
 
 
 }
-
-
+ .media__parrafo3--top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+ }
 
 
 .footer{
@@ -201,11 +219,62 @@
 	background-color: #ece3c3;
 	color: rgb(0, 0, 0);
 	width: 100% ; 
-    height: 200px ; 
+    height: 500px ; 
     display: block;
     position: relative;
+
 	
 }
+
+.footer__flex {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.footer__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.footer__p {
+    margin: 0px 0px 200px 0px;
+
+}
+
+.footer__p2 {
+
+    margin: 0px 0px 200px 50px;
+}
+
+
+/* lo tanajado con boostrap*/
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+  
+.contacto2 {
+    padding: 9rem 0rem 0rem 0rem;
+}
+
+.inicioboostrap {
+    
+    padding: 2rem 0;
+
+}
+
+
 
 
 
@@ -345,4 +414,21 @@
 
 .cardp__masf {
 
+}
+
+
+
+/*contacto*/
+
+.contacto{
+    padding: 16px; 
+    margin: 150px 0px 33%; 
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.contacto2 {
+    padding: 3rem 0;
 }
