@@ -1,7 +1,7 @@
 /*.minecraft {
     color: navy;
 }*/
-
+@import "./parciales/variables"; //siempre arriba para poder usar variables recordar
 @import "./parciales/base" ;
 @import "./parciales/header";
 @import "./parciales/footer";
