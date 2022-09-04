@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,30 @@
     <link rel="shortcut icon" href="./imagenes/logopestaña.ico" type="image/x-icon">
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
 
     <link rel="stylesheet" href="./css/estilos.css">
 
 </head>
+
 <body class="body">
     <header class="header">
-        <a class="header__logo" href="./index.html"><img src="./imagenes/bach-flower-essences-logo.svg" alt="logo" width="160" height="150"></a>
+        <a class="header__logo" href="./index.html"><img src="./imagenes/bach-flower-essences-logo.svg" alt="logo"
+                width="150" height="140"></a>
+
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+
         <nav class="nav">
-             <ul class="nav__listado">
-                <li class="nav__item" >
+            <ul class="nav__listado">
+                <li class="nav__item">
                     <a href="./index.html">Inicio</a>
-                 </li>
+                </li>
                 <li class="nav__item">
                     <a href="./pagina/productos.html">productos</a>
                 </li>
@@ -27,18 +39,19 @@
                     <a href="./pagina/blog.html">blog</a>
                 </li>
                 <li class="nav__item">
-                     <a href="./pagina/nosotros.html">nosotros</a>
+                    <a href="./pagina/nosotros.html">nosotros</a>
                 </li>
                 <li class="nav__item">
                     <a href="./pagina/contactanos.html">contactanos</a>
                 </li>
-             </ul>
-         </nav>
+                
+            </ul>
+        </nav>
     </header>
-    
-    
+
+
     <main class="main">
-      
+
         <!--<section class="inicio1">
         <div class="flex">
             <div class="card">
@@ -47,64 +60,88 @@
             </div>
         </div>
       </section> -->
-      
-      <section class="contacto2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        <section class="contacto2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/car1.png" class="d-block w-100" alt="fotoincipal">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/car2.jpg"
+                                        class="d-block w-100"
+                                        alt="bienestar-emocional1__FocusFillWzk1MCw2MDAsIngiLDEzXQ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/car4.jpg"
+                                        class="d-block w-100"
+                                        alt="Gestionar-el-miedo-para-vivir-con-plenitud-v2__FocusFillWzk1MCw2MDAsInkiLDQxMl0">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./imagenes/fotoincipal.png" class="d-block w-100" alt="fotoincipal">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./imagenes/bienestar-emocional1__FocusFillWzk1MCw2MDAsIngiLDEzXQ.png" class="d-block w-100" alt="bienestar-emocional1__FocusFillWzk1MCw2MDAsIngiLDEzXQ">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./imagenes/Gestionar-el-miedo-para-vivir-con-plenitud-v2__FocusFillWzk1MCw2MDAsInkiLDQxMl0.jpg" class="d-block w-100" alt="Gestionar-el-miedo-para-vivir-con-plenitud-v2__FocusFillWzk1MCw2MDAsInkiLDQxMl0">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-     
-      <section class="inicio2">
-        <div class="flex">
-            
-            <div class="intro">
-                <h2 class="intro__titulo2">¿Qué son las Flores de Bach Originales?</h2>
-                <p class="intro__parrafo2">Las Flores de Bach® Originales son disoluciones acuosas de flores, plantas o árboles, que están enfocadas a todas las emociones pasajeras o habituales del individuo y participan en la armonía emocional a diario. Edward Bach comenzó a elaborar Las Flores de Bach® Originales en Inglaterra en las décadas de 1920 y 1930
+        </section>
 
-                    Las Flores de Bach® Originales te ayudan a gestionar las emociones que puedas estar experimentando, para mejorar su comprensión y su equilibrio. Entre dichas emociones figuran la preocupación, la incertidumbre y la falta de interés. Estos sentimientos interfieren en el equilibrio emocional. Las Flores de Bach® Originales te ayudan a comprender tus emociones y a mejorar tu equilibrio emocional. Las Flores de Bach Originales tienen origen natural, ya que están elaborados a partir de plantas y flores silvestres. Conservados en brandy de uva. Y los han utilizado desde hace décadas, millones de personas en todo el mundo.
-                    
-                    Hay 38 Flores de Bach® Originales distintas, cada una enfocada a una emoción o sentimiento que siguen vigentes en el mundo moderno. Entre las esencias más populares destacan Beech, Cherry Plum, Chicory, Elm, Heather, Oak, Pine, Star of Bethlehem, Walnut y Water Violet. Utiliza el Selector de Flores de Bach para dar con la mezcla idónea para ti.
-                    
-                    Durante más de 80 años, personas de todo el mundo han utilizado las de Flores de Bach Originales para ayudar a gestionar su equilibrio emocional, en sus vidas. Las Flores de Bach®Originales y la gestión de las emociones ayudan a utilizar todo tu potencial. Aún hoy siguen elaborándose con los mismos métodos empleados en su origen por Bach.
-                </p>
+        <section class="inicio2">
+            <div class="flex">
+
+                <div class="intro">
+                    <h2 class="intro__titulo2">¿Qué son las Flores de Bach Originales?</h2>
+                    <p class="intro__parrafo2">Las Flores de Bach® Originales son disoluciones acuosas de flores,
+                        plantas o árboles, que están enfocadas a todas las emociones pasajeras o habituales del
+                        individuo y participan en la armonía emocional a diario. Edward Bach comenzó a elaborar Las
+                        Flores de Bach® Originales en Inglaterra en las décadas de 1920 y 1930
+
+                        Las Flores de Bach® Originales te ayudan a gestionar las emociones que puedas estar
+                        experimentando, para mejorar su comprensión y su equilibrio. Entre dichas emociones figuran la
+                        preocupación, la incertidumbre y la falta de interés. Estos sentimientos interfieren en el
+                        equilibrio emocional. Las Flores de Bach® Originales te ayudan a comprender tus emociones y a
+                        mejorar tu equilibrio emocional. Las Flores de Bach Originales tienen origen natural, ya que
+                        están elaborados a partir de plantas y flores silvestres. Conservados en brandy de uva. Y los
+                        han utilizado desde hace décadas, millones de personas en todo el mundo.
+
+                        Hay 38 Flores de Bach® Originales distintas, cada una enfocada a una emoción o sentimiento que
+                        siguen vigentes en el mundo moderno. Entre las esencias más populares destacan Beech, Cherry
+                        Plum, Chicory, Elm, Heather, Oak, Pine, Star of Bethlehem, Walnut y Water Violet. Utiliza el
+                        Selector de Flores de Bach para dar con la mezcla idónea para ti.
+
+                        Durante más de 80 años, personas de todo el mundo han utilizado las de Flores de Bach Originales
+                        para ayudar a gestionar su equilibrio emocional, en sus vidas. Las Flores de Bach®Originales y
+                        la gestión de las emociones ayudan a utilizar todo tu potencial. Aún hoy siguen elaborándose con
+                        los mismos métodos empleados en su origen por Bach.
+                    </p>
+
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-      </section>
-     
-      <!--alpicando boostap para la entrega-->
-     <!-- <section class="inicio3">
+        <!--alpicando boostap para la entrega-->
+        <!-- <section class="inicio3">
         <div class="flex">
             <div class="media">
                 <iframe class="media__video" width="560" height="315" src="https://www.youtube.com/embed/idFt7iCgv3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -118,56 +155,86 @@
             </div>
         </div>
       </section> -->
-       
-      <section  class="inicoboostrap">
-        <div class="flex" >
-            <div class="row"> 
-                <div  class="media" class="col-12 col-md-6">
-                    <video class="media__video" class="bootstrap1__video"  src="https://www.youtube.com/embed/idFt7iCgv3w" width="300" height="300px" controls></video>
-                    <p class="media__parrafo3 media__parrafo3--top" >
-                        Edwar Bach dividió las emociones en 7 categorías y, en cada una, incluye los sentimientos y emociones que pueden ser típicos en nuestro día a día, pero que a veces nos pueden hacer sentir desbordados.
-                        Es posible que te sientas reflejada con varias de las emociones de las que habla, y si sigues leyendo descubrirás cómo y cuántas flores puedes identificar con cada una de tus emociones. Lograrás así una mezcla de flores que pueden ayudarte a gestionar cada una de esas emociones
-    
-    
-                    </p>
-                   
+
+        <section class="inicoboostrap">
+            <div class="flex">
+                <div class="row">
+                    <div class="media" class="col-12 col-md-6">
+                        <video class="media__video" class="bootstrap1__video"
+                            src="https://www.youtube.com/watch?v=idFt7iCgv3w&t=101s&ab_channel=FloresdeBach" width="300"
+                            height="300px" controls></video>
+                        <p class="media__parrafo3 media__parrafo3--top">
+                            Edwar Bach dividió las emociones en 7 categorías y, en cada una, incluye los sentimientos y
+                            emociones que pueden ser típicos en nuestro día a día, pero que a veces nos pueden hacer
+                            sentir desbordados.
+                            Es posible que te sientas reflejada con varias de las emociones de las que habla, y si
+                            sigues leyendo descubrirás cómo y cuántas flores puedes identificar con cada una de tus
+                            emociones. Lograrás así una mezcla de flores que pueden ayudarte a gestionar cada una de
+                            esas emociones.
+
+
+                        </p>
+
+                    </div>
+
                 </div>
-                
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
     </main>
 
-    
-    
-    
-    
+
+
+
+
     <footer class="footer">
-        <div>
-            <img src="./imagenes/bach-flower-essences-logo.svg" alt="logo" width="90" height="90">
-            <p>©derechos reservados</p>
+        <div class="footer__logoderechos">
+            <div>
+                <img src="./imagenes/bach-flower-essences-logo.svg" alt="logo" width="90" height="90">
+                <p>©derechos reservados</p>
+            </div>
+            <div>
+                <p class="footer__p2">contactate con nosotros</p>
+                <nav>
+                    <ul class="footer__lista">
+                        <li><a href="#" target="-blank">instagram</a></li>
+                        <li><a href="#" target="-blank">facebook</a></li>
+                        <li><a href="#" target="-blank">whatsapp</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
+
+        <!--
+         <div class="footer__contactred">
+            <p class="footer__p2">contactate con nosotros</p>
+            <nav>
+                <ul class="footer__lista">
+                    <li><a href="#" target="-blank">instagram</a></li>
+                    <li><a href="#" target="-blank">facebook</a></li>
+                    <li><a href="#" target="-blank">whatsapp</a></li>
+                </ul>
+            </nav>
+        </div>-->
+
         <div class="footer__flex">
 
-            <p class="footer__p">"Cada persona tiene una vida que vivir, un trabajo que hacer, una gloriosa personalidad, una maravillosa
+            <p class="footer__p">"Cada persona tiene una vida que vivir, un trabajo que hacer, una gloriosa
+                personalidad, una maravillosa
                 individualidad"
                 Edward Bach</p>
-            <p class="footer__p2">contactate con nosotros</p>
+
         </div>
-        <!--recodar poner links-->
-        <nav>
-            <ul class="footer__lista">
-                <li><a href="#" target="-blank">instagram</a></li>
-                <li><a href="#" target="-blank">facebook</a></li>
-                <li><a href="#" target="-blank">whatsapp</a></li>
-            </ul>
-        </nav>
+
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
